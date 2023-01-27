@@ -1,0 +1,22 @@
+.intro__text {
+  width: 690px;
+  height: 208px;
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 163%;
+  font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 720px;
+    height: 208px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    width: 288px;
+    height: 520px;
+  }
+}

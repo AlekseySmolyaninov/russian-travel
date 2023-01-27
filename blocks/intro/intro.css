@@ -1,0 +1,8 @@
+.intro {
+  position: static;
+  width: 690px;
+  height: 429px;
+  display: grid;
+  color: #ffffff;
+  grid-template-rows: auto;
+}
