@@ -1,0 +1,16 @@
+.place__url-heading {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+  }
+}

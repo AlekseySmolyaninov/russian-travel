@@ -1,0 +1,29 @@
+.places {
+  color: #fff;
+  display: grid;
+  grid-column: column;
+  row-gap: 80px;
+  max-width: 984px;
+  margin: 98px auto 98px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024) {
+  .places {
+    margin: 98px auto 98px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 88px 24px 90px;
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .places {
+    margin: 64px auto 66px;
+    row-gap: 50px;
+  }
+}

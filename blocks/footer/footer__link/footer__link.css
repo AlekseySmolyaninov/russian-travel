@@ -1,0 +1,22 @@
+.footer__link {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
