@@ -1,6 +1,6 @@
 .place__title {
   grid-area: header;
-  font-family: 'Inter-Black', 'Arial', 'Helvetica', sans-serif;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 72px;
