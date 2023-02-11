@@ -1,0 +1,61 @@
+.place__paragraph {
+  grid-area: text;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+  max-width: 484px;
+  padding-bottom: 24px;
+}
+
+.place__paragraph:last-of-type {
+  grid-area: text1;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  max-width: 484px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+    padding-bottom: 27px;
+  }
+  .place__paragraph:last-of-type {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 352px;
+    padding-bottom: 25px;
+  }
+  .place__paragraph:last-of-type {
+    max-width: 352px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .place__paragraph {
+    padding-top: 32px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+  }
+  .place__paragraph:last-of-type {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: auto;
+    font-size: 16px;
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,19 @@
+.place__link {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  display: block;
+  max-width: 456px;
+  width: 100%;
+  color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .place__link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+  }
+}
