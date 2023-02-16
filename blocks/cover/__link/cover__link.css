@@ -13,7 +13,7 @@
   overflow-x: hidden;
 }
 
-.cover__link::before {
+.cover__link:before {
   content: '';
   position: absolute;
   background-color: #2a2c2f;
@@ -26,8 +26,8 @@
   height: 100%;
 }
 
-.cover__link:hover {
-  opacity: 0.5;
+.cover__link:hover:before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -45,6 +45,7 @@
     margin-right: 0;
     max-width: 768px;
     min-height: 480px;
+    margin-bottom: 88px;
   }
 }
 
